@@ -3,10 +3,12 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
+        <h2>About</h2>
+        <p>This project is the result of my studies of the Laravel framework, which started in the last week of February 2022 and consuming a few hours of my weekends since then. The main goal is to understand how Laravel works, its connections with the database, authentication system, simple pages with some information, etc.</p>        
+        <p>New users, it's needed a registration by clicking on Register at the top corner (or sandwich menu, in mobile) of the screen before login. All your data are personal. </p>
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
-
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
