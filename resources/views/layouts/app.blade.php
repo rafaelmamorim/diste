@@ -113,7 +113,7 @@
         - 
         <a href="{{ route('privacy.index') }}">Privacy</a>
         - 
-        <a href="https://www.github.com/rafaelmamorim">Project on GitHub</a>
+        <a href="https://github.com/rafaelmamorim/diste">Project on GitHub</a>
     </footer>
 </body>
 </html>
